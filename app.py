@@ -25,6 +25,6 @@ def subtract_numbers(a, b):
 
 # Runs only when the file is executed directly (not when imported by tests)
 if __name__ == "__main__":
-    print("Application started")
+    print("Application started - v2")
     print("2 + 3 =", add_numbers(2, 3))
     print("5 - 2 =", subtract_numbers(5, 2))
