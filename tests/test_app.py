@@ -17,7 +17,7 @@ from app import add_numbers, subtract_numbers
 class TestCalculator(unittest.TestCase):
     # Checks the main example from the assignment: 2 + 3 = 5
     def test_add_numbers(self):
-        self.assertEqual(add_numbers(2, 3), 6)
+        self.assertEqual(add_numbers(2, 3), 5)
 
     # Checks that adding a negative number works
     def test_add_negative(self):
